@@ -3,6 +3,16 @@
   <head>
     <title>My Favorite Musician - Welcome</title>
     <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204011211-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-204011211-1');
+    </script>
+
   </head>
 
   <body>
@@ -13,11 +23,15 @@
       <li><a href="3.html">Hash Swan</a></li>
     </ol>
     <h2>Musician</h2>
+    <!-- <h2><font color="FireBrick">Musician</font></h2> -->
     <p>
       음악가(音樂家) 또는 뮤지션(Musician)은 음악을 창작하는 작곡가를 일컫거나 혹은 음악을 연주하여 재현하는 연주자들을 직업으로 가진 사람들을 말한다. 음악을 연구하는 인문학자인 음악사학을 연구하는 학자와는 구별된다.
     </p>
 
-    <img src="rat.jpg" width="100%" alt="쥐">
+    <h2>요즘 듣는 노래</h2>
+    <p style="color:indianred; text-decoration: underline;">AURORA - Cure for Me</p>
+    <img src="CureForMe.png" width="560px" alt="Cure for Me">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K17df81RL9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <p style="margin-top:45px;">
       하는 일이나 종류에 따라 다음과 같이 분류할 수 있다. 구체적인 인명에 대한 항목은 다음의 항목들을 참조.
@@ -34,5 +48,39 @@
         <li>음악 프로듀서</li>
       </ul>
     </p>
+
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://web-study-18.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/6108cda5649e0a0a5ccf38b2/1fc566jm5';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
   </body>
 </html>
